@@ -1,0 +1,43 @@
+.table1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    .table1 th, .table1 td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+    }
+    .table1 th, .table1 td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    }
+    .table1 td {
+    background: #D8E6F3;
+    }
+    .table1 th:first-child, .table1 td:first-child {
+    text-align: left;
+    }
+.modal-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+      }
+      
+      .modal-content {
+        background-color: white;
+        width: 50%;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 2;
+      }
